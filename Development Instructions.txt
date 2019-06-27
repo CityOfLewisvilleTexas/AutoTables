@@ -1,0 +1,9 @@
+To edit the code of this app, you need Node and NPM installed. Then you open a command prompt in the root folder (inetpub\AutoTables) and run "npm run start"
+
+This will launch the app in development mode. It will open a browser tab to a localhost server and any time you hit save on a file, it will automatically recompile the code. 
+
+In order to actually deploy the code to apps/autotables, cancel out of development mode (ctrl + C), and run "npm run build"
+
+This will compile the code into an optimized, production ready build and put it in the build/ folder (naturally). 
+
+Then all you have to do is copy the contents of the build folder into the root (inetpub\AutoTables).
